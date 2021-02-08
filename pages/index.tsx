@@ -14,7 +14,7 @@ export default function Home({
     title: string;
     id: string;
   }[];
-}) {
+}): JSX.Element {
   return (
     <Layout home>
       <Head>
@@ -27,6 +27,13 @@ export default function Home({
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
+      <button
+        onClick={() => {
+          window.alert("With typescript and Jest");
+        }}
+      >
+        Test Button
+      </button>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
