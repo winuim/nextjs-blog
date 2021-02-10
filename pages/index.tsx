@@ -6,7 +6,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
 
-export default function Home({
+export const Home = ({
   allPostsData,
 }: {
   allPostsData: {
@@ -14,7 +14,7 @@ export default function Home({
     title: string;
     id: string;
   }[];
-}): JSX.Element {
+}): JSX.Element => {
   return (
     <Layout home>
       <Head>
@@ -52,7 +52,7 @@ export default function Home({
       </section>
     </Layout>
   );
-}
+};
 
 export const getStaticProps: GetStaticProps = async () => {
   const allPostsData = getSortedPostsData();
@@ -62,3 +62,5 @@ export const getStaticProps: GetStaticProps = async () => {
     },
   };
 };
+
+export default Home;

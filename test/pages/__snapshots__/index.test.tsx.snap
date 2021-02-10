@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <img
+        alt="[Your Name]"
+        class="headerHomeImage borderCircle"
+        src="/images/profile.jpg"
+      />
+      <h1
+        class="heading2Xl"
+      >
+        [Your Name]
+      </h1>
+    </header>
+    <main>
+      <section
+        class="headingMd"
+      >
+        <p>
+          [Your Self Introduction]
+        </p>
+        <p>
+          (This is a sample website - you’ll be building a site like this in 
+          <a
+            href="https://nextjs.org/learn"
+          >
+            our Next.js tutorial
+          </a>
+          .)
+        </p>
+      </section>
+      <button>
+        Test Button
+      </button>
+      <section
+        class="headingMd padding1px"
+      >
+        <h2
+          class="headingLg"
+        >
+          Blog
+        </h2>
+        <ul
+          class="list"
+        >
+          <li
+            class="listItem"
+          >
+            <a
+              href="/posts/ssg-ssr"
+            >
+              When to Use Static Generation v.s. Server-side Rendering
+            </a>
+            <br />
+            <small
+              class="lightText"
+            >
+              <time
+                datetime="2020-01-02"
+              >
+                January 2, 2020
+              </time>
+            </small>
+          </li>
+          <li
+            class="listItem"
+          >
+            <a
+              href="/posts/pre-rendering"
+            >
+              Two Forms of Pre-rendering
+            </a>
+            <br />
+            <small
+              class="lightText"
+            >
+              <time
+                datetime="2020-01-01"
+              >
+                January 1, 2020
+              </time>
+            </small>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</DocumentFragment>
+`;
