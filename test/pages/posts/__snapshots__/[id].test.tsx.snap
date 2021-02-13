@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <a
+        href="/"
+      >
+        <img
+          alt="[Your Name]"
+          class="headerImage borderCircle"
+          src="/images/profile.jpg"
+        />
+      </a>
+      <h2
+        class="headingLg"
+      >
+        <a
+          class="colorInherit"
+          href="/"
+        >
+          [Your Name]
+        </a>
+      </h2>
+    </header>
+    <main>
+      <article>
+        <h1
+          class="headingXl"
+        >
+          test tilte
+        </h1>
+        <div
+          class="lightText"
+        >
+          <time
+            datetime="2021-01-01"
+          >
+            January 1, 2021
+          </time>
+        </div>
+        <div>
+          test content
+        </div>
+      </article>
+    </main>
+    <div
+      class="backToHome"
+    >
+      <a
+        href="/"
+      >
+        ← Back to home
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
