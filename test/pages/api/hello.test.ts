@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 import httpMocks from "node-mocks-http";
 import { hello } from "../../../pages/api/hello";
 
-describe("/api/home handler", () => {
+describe("/api/hello handler", () => {
   test("responds 200 GET", async () => {
     const mockReq = httpMocks.createRequest<NextApiRequest>();
     const mockRes = httpMocks.createResponse<NextApiResponse>();

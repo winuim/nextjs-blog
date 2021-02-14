@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "../../testUtils";
 import Post from "../../../pages/posts/[id]";
 
-describe("Home page", () => {
+describe("id page", () => {
   it("matches snapshot", () => {
     const postData: {
       title: string;
