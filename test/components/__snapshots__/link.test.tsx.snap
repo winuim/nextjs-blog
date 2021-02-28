@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Copyright component matches snapshot 1`] = `
+<DocumentFragment>
+  <a
+    class="MuiTypography-root MuiLink-root MuiLink-underlineHover active MuiTypography-colorPrimary"
+    href="/home"
+  />
+</DocumentFragment>
+`;
