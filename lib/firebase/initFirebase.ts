@@ -20,6 +20,10 @@ const firebaseConfig = {
   appId: process.env.FIREBASE_APPID,
 };
 
-if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-}
+export const initFirebase = () => {
+  if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+  }
+};
+
+export default initFirebase;
