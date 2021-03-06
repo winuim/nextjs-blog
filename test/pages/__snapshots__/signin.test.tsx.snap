@@ -178,7 +178,7 @@ exports[`Home page matches snapshot 1`] = `
           >
             <a
               class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-body2 MuiTypography-colorPrimary"
-              href="#"
+              href="/forgot"
             >
               Forgot password?
             </a>
@@ -188,7 +188,7 @@ exports[`Home page matches snapshot 1`] = `
           >
             <a
               class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-body2 MuiTypography-colorPrimary"
-              href="#"
+              href="/signup"
             >
               Don't have an account? Sign Up
             </a>

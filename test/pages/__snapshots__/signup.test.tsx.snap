@@ -290,7 +290,7 @@ exports[`Home page matches snapshot 1`] = `
           >
             <a
               class="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-body2 MuiTypography-colorPrimary"
-              href="#"
+              href="/signin"
             >
               Already have an account? Sign in
             </a>

@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from '../testUtils';
-import SignIn from '../../templates/SignIn';
+import SignIn from '../../pages/signin';
 
 describe('Home page', () => {
   it('matches snapshot', () => {
